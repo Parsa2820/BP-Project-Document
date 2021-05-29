@@ -1,0 +1,71 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{xepersian}
+
+\settextfont[BoldFont={XB Zar bold.ttf}]{XB Zar.ttf}
+
+\definecolor{darkelectricblue}{rgb}{0.33, 0.41, 0.47}
+\definecolor{junglegreen}{rgb}{0.16, 0.67, 0.53}
+\definecolor{celestialblue}{rgb}{0.29, 0.59, 0.82}
+\definecolor{caribbeangreen}{rgb}{0.0, 0.8, 0.6}
+\definecolor{celestialblue}{rgb}{0.29, 0.59, 0.82}
+
+\color{darkelectricblue}
+
+\renewcommand{\headrule}{\hbox to\headwidth{\color{celestialblue}\leaders\hrule height \headrulewidth\hfill}}
+
+\pagestyle{fancy}
+\rhead{\color{celestialblue}دانشکده مهندسی کامپیوتر دانشگاه صنعتی شریف}
+\lhead{\color{celestialblue}پروژه درس مبانی برنامه‌سازی}
+
+\titleformat{\section}[display]{\bfseries\Large\itshape\color{junglegreen}}{}{0.5ex}
+    {
+        \rule{\textwidth}{1pt}
+        \vspace{1ex}
+        \centering
+    }
+    [
+    \vspace{-2ex}
+    \rule{\textwidth}{0.3pt}
+    ]
+
+\titleformat{\subsection}[display]{\normalfont\bfseries\color{caribbeangreen}}{}{0.5em}{}
+
+\begin{document}
+
+    \begin{titlepage}
+        \begin{center}
+            \includegraphics{./Resources/sharif-large.png} \\
+            \vspace{0.5cm}
+            \Huge\textbf{پروژه درس مبانی برنامه‌سازی} \\
+            \vspace{1cm}
+            \Large\textbf{دانشکده مهندسی کامپیوتر دانشگاه صنعتی شریف} \\
+            \vspace{1cm}
+            \large نیم‌سال دوم 00-99\\
+            \vspace{1cm}
+            \Large استاد: \textbf{فکوری} \\
+            \vspace{1cm}
+            \Large محلت ارسال: \textbf{30 خرداد}
+        \end{center}
+    \end{titlepage}
+
+    \thispagestyle{empty}
+    \tableofcontents
+    \newpage
+    \clearpage
+    \setcounter{page}{1}
+
+    \section{مقدمه}
+    هی
+
+    \section{جزئیات}
+    هو
+    \subsection{پیاده‌سازی}
+    سلام
+
+
+\end{document}
